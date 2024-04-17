@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: lightgreen;
+    gap: 30px;
+}
+.container{
+    width: 100%;
+    display: flex;justify-content: center;align-items: center;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: left;
+
+    gap: 10px;
+    background: orangered;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+}
+input{
+padding: 10px;
+border-radius: 5px;
+border: 1px solid black;
+outline: none;
+background: transparent;
+color: white;
+width: 80%;
+}
+input::placeholder{
+    color: orange;
+}
+select{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    width: 80%;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+    margin-left:35%;
+    border: none;
+    background: lightgreen;
+    font-weight: bold;
+    cursor: pointer;
+}
+table {
+    width: 90%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+i{
+    cursor: pointer;
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 33%;
+    margin-bottom: 10px;
+}
